@@ -1,16 +1,19 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
 .half-width{
     display: flex;
 }
 .col-md-6{
     width: 50%;
-   margin: 30px 0px 0px 150px;
+   margin: 10px 0px 0px 150px;
 }
 #font-h2{
     font-size: 2em;
     font-weight: 800;
     padding-top: 0%;
     border-left: 4px solid orangered;
-    height: 130px;
+    
 }
 #mission{
     text-align: justify;
@@ -39,7 +42,7 @@
 }
 .col-md-4{
     width: 200px;
-    height: 230px;
+    height: 280px;
     padding: 5px 20px 7px 20px;
     margin: 30px 0px 50px 150px;
     border: 10px 10px 10px 10px ; 
@@ -74,6 +77,12 @@
     width: 600px;
     margin: 30px 0px 0px 80px;
 }
+.down-bg{
+    background-image: url(images/shapes/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
 .comunity{
     width: 300px;
     margin: 80px 0px 0px 150px;
@@ -100,6 +109,18 @@ color: orange;
 }
 .project img{
     width: 250px;
+    width: 250px;
+}
+#project-btn{
+    background-color: chocolate;
+    border: 5px solid chocolate;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding:5px 10px 5px 10px;
+}
+#project-btn:hover{
+   background-color: chartreuse;
 }
 footer{
     background-color: black;
